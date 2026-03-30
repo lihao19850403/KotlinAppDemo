@@ -1,5 +1,6 @@
 package com.lihao.kotlinapp
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.MotionEvent
@@ -63,6 +64,12 @@ class MainActivity : AppCompatActivity() {
             draw?.layoutParams = drawLayoutParams
             Toast.makeText(this, if (draw?.fitMode == true) "触摸屏幕" else "触摸圆盘", Toast.LENGTH_SHORT).show()
             Unit
+        }
+
+        val jumpBtn = findViewById<Button>(R.id.jumpPage)
+        jumpBtn.setOnClickListener { view ->
+            val intent = Intent(this, LightEmuActivity::class.java)
+            startActivity(intent)
         }
 
         draw = DrawView(this)

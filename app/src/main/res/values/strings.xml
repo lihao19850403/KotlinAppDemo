@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">KotlinApp</string>
     <string name="click_me">单击我</string>
+    <string name="jump_to_another_page">跳转到另一个页面</string>
 </resources>
