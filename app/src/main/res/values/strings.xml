@@ -2,4 +2,6 @@
     <string name="app_name">KotlinApp</string>
     <string name="click_me">单击我</string>
     <string name="jump_to_another_page">跳转到另一个页面</string>
+    <string name="choose_date_and_time">选择日期和时间</string>
+    <string name="two_strings_in_blank">%1$s %2$s</string>
 </resources>
