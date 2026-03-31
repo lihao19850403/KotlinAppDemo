@@ -24,7 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LightEmuActivity" />
+        <activity android:name=".pages.touchdot.TouchDotActivity" />
+        <activity android:name=".pages.lightemu.LightEmuActivity" />
     </application>
 
 </manifest>

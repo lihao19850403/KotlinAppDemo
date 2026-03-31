@@ -1,4 +1,4 @@
-package com.lihao.kotlinapp
+package com.lihao.kotlinapp.components
 
 import android.content.Context
 import android.util.AttributeSet

@@ -1,4 +1,4 @@
-package com.lihao.kotlinapp
+package com.lihao.kotlinapp.pages.lightemu
 
 import android.os.Bundle
 import android.os.Handler
@@ -6,6 +6,7 @@ import android.os.Looper
 import android.os.Message
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.lihao.kotlinapp.R
 import java.lang.ref.WeakReference
 import java.util.Timer
 import java.util.TimerTask

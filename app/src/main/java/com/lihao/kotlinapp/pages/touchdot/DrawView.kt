@@ -1,4 +1,4 @@
-package com.lihao.kotlinapp
+package com.lihao.kotlinapp.pages.touchdot
 
 import android.content.Context
 import android.graphics.Canvas
