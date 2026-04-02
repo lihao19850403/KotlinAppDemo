@@ -1,3 +1,3 @@
 package com.lihao.kotlinapp
 
-class MainListItem(var pageName: String, var action: () -> Unit)
+data class MainListItem(val pageName: String, val action: () -> Unit)

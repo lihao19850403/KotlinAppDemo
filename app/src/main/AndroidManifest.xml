@@ -27,6 +27,7 @@
         <activity android:name=".pages.touchdot.TouchDotActivity" />
         <activity android:name=".pages.lightemu.LightEmuActivity" />
         <activity android:name=".pages.datetime.DateTimePickActivity" />
+        <activity android:name=".pages.compose.ComposeActivity" />
     </application>
 
 </manifest>

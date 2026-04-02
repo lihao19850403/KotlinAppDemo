@@ -39,10 +39,10 @@ class DrawView : View {
 
     constructor(context: Context, set: AttributeSet): super(context, set)
 
-    override fun onDraw(canvas: Canvas?) {
+    override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         p.color = if (fitMode) Color.RED else Color.GREEN
-        canvas?.drawCircle(currentX, currentY, 150f, p)
+        canvas.drawCircle(currentX, currentY, 150f, p)
     }
 
     override fun onTouchEvent(event: MotionEvent?): Boolean {
