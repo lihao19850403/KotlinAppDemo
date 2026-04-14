@@ -4,6 +4,7 @@
     package="com.lihao.kotlinapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -28,6 +29,7 @@
         <activity android:name=".pages.lightemu.LightEmuActivity" />
         <activity android:name=".pages.datetime.DateTimePickActivity" />
         <activity android:name=".pages.compose.ComposeActivity" />
+        <activity android:name=".pages.contact.ContactPickerActivity" />
     </application>
 
 </manifest>

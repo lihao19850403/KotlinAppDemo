@@ -11,6 +11,7 @@
     <ImageView
         android:layout_width="48dp"
         android:layout_height="48dp"
+        android:contentDescription="@string/main_page_icon"
         android:scaleType="fitCenter"
         android:src="@mipmap/ic_main_list_item" />
 

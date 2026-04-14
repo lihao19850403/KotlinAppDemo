@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">KotlinApp</string>
+    <string name="main_page_icon">主页列表图标</string>
     <string name="click_me">单击我</string>
     <string name="jump_to_another_page">跳转到另一个页面</string>
     <string name="choose_date_and_time">选择日期和时间</string>
     <string name="two_strings_in_blank">%1$s %2$s</string>
+    <string name="browse_contactors">查看联系人</string>
 </resources>
